@@ -1,0 +1,142 @@
+.header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.header__header-content {
+  width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__logo-link {
+  display: inline-block;
+}
+
+.header__logo {
+  display: block;
+  width: 140px;
+  height: 20px;
+  transition: ease 0.5s;
+}
+
+.header__logo:hover {
+  transform: scale(1.2);
+}
+
+.header__list {
+  width: 331px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.header__item-link {
+  text-decoration: none;
+  font-family: "PublicSans";
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(149, 151, 165, 1);
+  transition: ease 0.3s;
+}
+
+.header__item-link:hover {
+  padding-bottom: 15px;
+  color: black;
+  border-bottom: 3px solid rgba(51, 211, 94, 1);
+}
+
+.header__button {
+  padding: 8px 35px;
+  color: white;
+  background-image: linear-gradient(#33D35E 0%,
+  #2AB6D9 100%);
+  border: none;
+  border-radius: 22px;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  opacity: 80%
+}
+
+.header__button:active {
+  opacity: 40%
+}
+
+.header__hamburger-button {
+  display: none;
+}
+
+@media only screen and (max-width:1130px) {
+  .header__header-content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width:830px) {
+  .header__header-content {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header__list {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  .header__button {
+    padding: 6px 10px;
+  }
+}
+
+@media only screen and (max-width:620px) {
+  .header__list {
+    display: none;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .header__header-content {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header__hamburger-button {
+    display: block;
+    border: none;
+    background-color: #fff;
+  }
+}
+
+@media only screen and (max-width:520px) {
+  .header__header-content {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width:420px) {
+  .header__header-content {
+    width: 300px;
+  }
+}

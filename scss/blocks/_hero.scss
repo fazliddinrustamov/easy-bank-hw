@@ -1,0 +1,136 @@
+.hero {
+  background-color: #f2f2f2;
+  background-image: url(../../img/hero-phones-desktop.png),
+                    url(../../img/hero-bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 515px) 0px, calc(55% + 353px) 50px;
+  background-size: auto;
+}
+
+.hero__hero-content {
+  width: 447px;
+  padding-top: 270px;
+  padding-bottom: 170px;
+}
+
+.hero__heading {
+  width: 394px;
+  font-family: "Public Sans";
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(45, 49, 77, 1);
+  letter-spacing: -1px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.hero__text {
+  width: 447px;
+  color: rgba(149, 151, 165, 1);
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.hero__button {
+  padding: 8px 35px;
+  color: white;
+  background-image: linear-gradient(#33D35E 0%,
+  #2AB6D9 100%);
+  border: none;
+  border-radius: 22px;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.hero__button:hover {
+  opacity: 80%
+}
+
+.hero__button:active {
+  opacity: 40%
+}
+
+@media only screen and (max-width:880px) {
+
+  .hero__hero-content {
+    width: 400px;
+    padding-top: 180px;
+    padding-bottom: 30px;
+  }
+
+  .hero__heading {
+    width: 200px;
+  }
+
+  .hero__text {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+
+  .hero {
+    background-color: #f2f2f2;
+    background-image: url(../../img/hero-phones-desktop.png),
+                      url(../../img/hero-bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top center, top center;
+    background-size: contain;
+  }
+
+  .hero__hero-content {
+    width: 280px;
+    padding-top: 520px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .hero__heading {
+    width: 280px;
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .hero__text {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .hero__hero-content {
+    width: 280px;
+    padding-top: 580px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .hero__hero-content {
+    width: 280px;
+    padding-top: 480px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .hero__hero-content {
+    width: 280px;
+    padding-top: 400px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
