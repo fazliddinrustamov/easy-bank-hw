@@ -1,0 +1,119 @@
+.articles__content {
+  width: 1110px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.articles__heading {
+  font-family: "Public Sans";
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.71px;
+  color: rgba(45, 49, 77, 1);
+  margin: 0;
+  margin-bottom: 40px;
+  width: 257px;
+}
+
+.articles__list {
+  list-style-type: none;
+  padding: 0;
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles__item {
+  width: 255px;
+  background-color: rgba(245, 245, 245, 0.526);
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.articles__item:hover {
+  transform: scale(1.1);
+}
+
+.articles__img {
+  width: 255px;
+  height: 200px;
+}
+
+.articles__item-heading {
+  width: 207px;
+  font-family: "Public Sans";
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.29px;
+  color:rgba(45, 49, 77, 1);
+  margin: 0;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  margin-left: 25px;
+}
+
+.articles__item-text {
+  width: 207px;
+  font-family: "PublicSans";
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.2px;
+  color: rgba(149, 151, 165, 1);
+  margin: 0;
+  margin-left: 25px;
+  padding-bottom: 25px;
+}
+
+@media only screen and (max-width:1130px) {
+  .articles__content {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .articles__heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 255px;
+  }
+
+  .articles__list {
+    width: 550px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .articles__item {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width:630px) {
+  .articles__content {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+    padding-top: 20px;
+  }
+  
+  .articles__heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: 255px;
+  }
+
+  .articles__list {
+    width: 270px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .articles__item {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,133 @@
+.footer {
+  background-color: #2D314D;
+}
+
+.footer__content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 1110px;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  transition: ease 0.5s;
+}
+
+.footer__logo:hover {
+  transform: scale(1.2);
+}
+
+.footer__social {
+  width: 154px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list--second {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__item {
+  font-family: "PublicSans";
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.23px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 1);
+  opacity: 80%;
+  margin-bottom: 10px;
+}
+
+.footer__button {
+  padding: 8px 35px;
+  color: white;
+  background-image: linear-gradient(#33D35E 0%,
+  #2AB6D9 100%);
+  border: none;
+  border-radius: 22px;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  cursor: pointer;
+}
+
+.footer__button:hover {
+  opacity: 80%
+}
+
+.footer__button:active {
+  opacity: 40%
+}
+
+.footer__rights {
+  font-family: "PublicSans";
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.23px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  opacity: 50%;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width:1140px) {
+  .footer__content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width:820px) {
+  .footer__content {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__social {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  } 
+
+  .footer__list--second {
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (max-width:540px) {
+  .footer__content {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__social {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  } 
+
+  .footer__list--second {
+    margin-bottom: 32px;
+  }
+}
